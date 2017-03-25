@@ -1,0 +1,6 @@
+framework module Pods_XDSModuleManager_Example {
+  umbrella header "Pods-XDSModuleManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

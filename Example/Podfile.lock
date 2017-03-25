@@ -1,0 +1,16 @@
+PODS:
+  - XDSModuleManager (0.1.0)
+
+DEPENDENCIES:
+  - XDSModuleManager (from `../`)
+
+EXTERNAL SOURCES:
+  XDSModuleManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XDSModuleManager: 0016ca0f2f87edd45a11f3328107c35127379110
+
+PODFILE CHECKSUM: 6d4626580bd3439455a3f6bd4b3437219bd9af78
+
+COCOAPODS: 1.2.0

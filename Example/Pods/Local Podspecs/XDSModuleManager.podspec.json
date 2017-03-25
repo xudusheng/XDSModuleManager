@@ -1,0 +1,22 @@
+{
+  "name": "XDSModuleManager",
+  "version": "0.1.0",
+  "summary": "A short description of XDSModuleManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xudusheng/XDSModuleManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xudusheng": "597132100@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xudusheng/XDSModuleManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XDSModuleManager/Classes/**/*"
+}
