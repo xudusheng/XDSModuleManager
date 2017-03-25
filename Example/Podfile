@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XDSModuleManager_Example' do
+  pod 'XDSModuleManager', :path => '../'
+
+  target 'XDSModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
