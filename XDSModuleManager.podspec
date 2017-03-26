@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XDSModuleManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XDSModuleManager.'
+  s.summary          = '模块化开发中的模块协议，遵守模块协议的根模块、模块管理者'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XDSModuleManager.h"
 
 FOUNDATION_EXPORT double XDSModuleManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDSModuleManagerVersionString[];

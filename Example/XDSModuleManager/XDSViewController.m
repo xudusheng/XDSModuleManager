@@ -7,7 +7,7 @@
 //
 
 #import "XDSViewController.h"
-
+#import "XDSModuleManager.h"
 @interface XDSViewController ()
 
 @end

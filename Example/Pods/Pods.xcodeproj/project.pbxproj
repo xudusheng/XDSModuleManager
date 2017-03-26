@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		1847927F23106089D254097FA808A6B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		28440613CC127D46BF917FFFF47B9CEB /* Pods-XDSModuleManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D677E124B602EE01FC3DAD9BCC430 /* Pods-XDSModuleManager_Tests-dummy.m */; };
-		28B72A451AB00EC7E2537C77EC78503E /* XDSModuleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7D9E82B5496F25DEFF167247929F16 /* XDSModuleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3061577D4F337D396846D5EE98318F57 /* Pods-XDSModuleManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973049F4F3ADB26653503DB4389AE07C /* Pods-XDSModuleManager_Example-dummy.m */; };
 		36338755ED6F35AE8125394DD5998D66 /* Pods-XDSModuleManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08118DE2F315DA8E10CAEE12CDB12842 /* Pods-XDSModuleManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64D60EEF945AE7D8DFAF22A5BB88F4B0 /* Pods-XDSModuleManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB72C9228FA50DD36D1EC54C076C9F4B /* Pods-XDSModuleManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8540AD02DAE9E17FA47406425836ED8C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332797F4B41F22E9E2DDB8847C83484 /* ReplaceMe.m */; };
+		7C1982E0FE29ABADF2BE8EB88242BE32 /* XDSModuleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645DC63B2873138C56123C7CCBF4652A /* XDSModuleManager-dummy.m */; };
+		A39637F019209164C559A2DE5B34372E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E37DFEC88ABCB6B7C1183619EF8D3EC7 /* ReplaceMe.m */; };
+		B59611BBAF6A2C90EBC1EF8B9D496BC0 /* XDSModuleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7D9E82B5496F25DEFF167247929F16 /* XDSModuleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3185C5EF53C97244ACD9E37A6C96F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D9D01CB5094FC2B3F50561E5CE918198 /* XDSModuleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645DC63B2873138C56123C7CCBF4652A /* XDSModuleManager-dummy.m */; };
+		CB6058D4F8662CACA59D8F078089C6FB /* XDSModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40590D44BE19B9AF5E2B10945A7301C3 /* XDSModuleManager.m */; };
+		FE480A3ABF583351C6C1FBB9C755D261 /* XDSModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C003A79E1349A7474C631EE67879909 /* XDSModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE67EF4C1B3797AB89BFAD86FAD911D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +37,9 @@
 		1483248819DCE9CCB00EF37814413F7D /* Pods-XDSModuleManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDSModuleManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16ED045D91B51186F42E7C9FF62478A9 /* XDSModuleManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDSModuleManager.xcconfig; sourceTree = "<group>"; };
 		1C21A8D1A7EE95089E9B5D7D135CF1BE /* Pods-XDSModuleManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XDSModuleManager_Tests.modulemap"; sourceTree = "<group>"; };
+		2C003A79E1349A7474C631EE67879909 /* XDSModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDSModuleManager.h; sourceTree = "<group>"; };
 		3E1DB49AC7BE82AA346A15567B9A5E98 /* XDSModuleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDSModuleManager-prefix.pch"; sourceTree = "<group>"; };
+		40590D44BE19B9AF5E2B10945A7301C3 /* XDSModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDSModuleManager.m; sourceTree = "<group>"; };
 		508C25156BE786B516CAD1BF203331D4 /* Pods-XDSModuleManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDSModuleManager_Example-resources.sh"; sourceTree = "<group>"; };
 		5320AB13C4F557124B3960559EEF13AB /* Pods-XDSModuleManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDSModuleManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		542FA568F0BA6960AA328766214B89F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +50,6 @@
 		736C086951A4CCF7FFA02E75D0711002 /* Pods-XDSModuleManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XDSModuleManager_Example.modulemap"; sourceTree = "<group>"; };
 		8B8AB413A5E3EB2BD7D82B62EADF8A3F /* Pods-XDSModuleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDSModuleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91B6B41AA1AA3D770D9FC3AB602A1673 /* XDSModuleManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDSModuleManager.framework; path = XDSModuleManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9332797F4B41F22E9E2DDB8847C83484 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		973049F4F3ADB26653503DB4389AE07C /* Pods-XDSModuleManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDSModuleManager_Example-dummy.m"; sourceTree = "<group>"; };
 		997B457F0CB623FEBCBCB516550095FE /* Pods-XDSModuleManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDSModuleManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		D03CD673600AEABB854F36D15C34C768 /* Pods-XDSModuleManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDSModuleManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D55273ACE7A127A62A0EAB960C0B9526 /* Pods-XDSModuleManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDSModuleManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		DD7D9E82B5496F25DEFF167247929F16 /* XDSModuleManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDSModuleManager-umbrella.h"; sourceTree = "<group>"; };
+		E37DFEC88ABCB6B7C1183619EF8D3EC7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		EEEB09571BA23C9BA2B00B5F166C5154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF907E7B486C527228A2CCB45AF66B70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F02D677E124B602EE01FC3DAD9BCC430 /* Pods-XDSModuleManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDSModuleManager_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157426A592BC6E9254EC0AD05B24F657 /* XDSModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				A157CEEA3C6AFD8F0AFF0E510C988702 /* Classes */,
+			);
+			name = XDSModuleManager;
+			path = XDSModuleManager;
+			sourceTree = "<group>";
+		};
 		18EF9489DF60FAF8B46D1A066F69E692 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,10 +169,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		94DFF6BCA970C58D903C9AE219915E05 /* Classes */ = {
+		A157CEEA3C6AFD8F0AFF0E510C988702 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9332797F4B41F22E9E2DDB8847C83484 /* ReplaceMe.m */,
+				E37DFEC88ABCB6B7C1183619EF8D3EC7 /* ReplaceMe.m */,
+				2C003A79E1349A7474C631EE67879909 /* XDSModuleManager.h */,
+				40590D44BE19B9AF5E2B10945A7301C3 /* XDSModuleManager.m */,
 			);
 			name = Classes;
 			path = Classes;
@@ -169,19 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				E9BFBC67EF00C885E17D63D603C1CD01 /* Support Files */,
-				AA71F1AF8E89111DE5A15A30E010213E /* XDSModuleManager */,
+				157426A592BC6E9254EC0AD05B24F657 /* XDSModuleManager */,
 			);
 			name = XDSModuleManager;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		AA71F1AF8E89111DE5A15A30E010213E /* XDSModuleManager */ = {
-			isa = PBXGroup;
-			children = (
-				94DFF6BCA970C58D903C9AE219915E05 /* Classes */,
-			);
-			name = XDSModuleManager;
-			path = XDSModuleManager;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -227,14 +233,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		002F67954F4444E582E7F2E405A17241 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28B72A451AB00EC7E2537C77EC78503E /* XDSModuleManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		205DDBDB41E92747985057FBADED248F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +249,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34645BBB66865D7E3F864BE02FEA89B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59611BBAF6A2C90EBC1EF8B9D496BC0 /* XDSModuleManager-umbrella.h in Headers */,
+				FE480A3ABF583351C6C1FBB9C755D261 /* XDSModuleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -258,9 +265,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26835FAC39D21AB6E17F6413469E2A27 /* Build configuration list for PBXNativeTarget "XDSModuleManager" */;
 			buildPhases = (
-				B67D1F4A31ADD49D0E377658C11CFBC3 /* Sources */,
+				47426CBAD09D7324DE2CD220A0B09869 /* Sources */,
 				D49311DC3A7FF68E47AF1C295105C357 /* Frameworks */,
-				002F67954F4444E582E7F2E405A17241 /* Headers */,
+				34645BBB66865D7E3F864BE02FEA89B2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,12 +358,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B67D1F4A31ADD49D0E377658C11CFBC3 /* Sources */ = {
+		47426CBAD09D7324DE2CD220A0B09869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8540AD02DAE9E17FA47406425836ED8C /* ReplaceMe.m in Sources */,
-				D9D01CB5094FC2B3F50561E5CE918198 /* XDSModuleManager-dummy.m in Sources */,
+				A39637F019209164C559A2DE5B34372E /* ReplaceMe.m in Sources */,
+				7C1982E0FE29ABADF2BE8EB88242BE32 /* XDSModuleManager-dummy.m in Sources */,
+				CB6058D4F8662CACA59D8F078089C6FB /* XDSModuleManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
